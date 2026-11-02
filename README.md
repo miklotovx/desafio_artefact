@@ -56,7 +56,7 @@ tools.py             # Product, order, tracking and policy queries
 data_access.py       # Source loading and validation
 conversation_log.py  # Local conversation recording
 iniciar_chat.bat     # Windows launcher
-data/                # Supplied CSVs, original PDF and Markdown manual
+data/                # Supplied CSVs and Markdown manual
 logs/                # Recorded conversations for evaluation
 tests/               # Automated checks and manual_test.txt
 log_LLM.txt          # Redacted human/LLM development conversation
@@ -83,4 +83,4 @@ With more time, output validation would be strengthened to hide internal fields 
 
 ## AI assistance
 
-Codex assisted with planning, source inspection, implementation and debugging under the candidate's direction. The full human/LLM conversation is available in log_LLM.txt, with sensitive information redacted. It documents this workflow and is updated through the latest export. Initial commits were created after implementation, grouped by component; they do not represent the original development timeline.
+Codex assisted with planning, source inspection, implementation and debugging under the candidate's direction. The full human/LLM conversation is available in `log_LLM.txt`, with sensitive information redacted. It documents this workflow and is updated through the latest export. Initial commits were created after implementation, grouped by component; they do not represent the original development timeline.
