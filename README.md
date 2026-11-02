@@ -62,11 +62,13 @@ tests/               # Automated checks and manual_test.txt
 log_LLM.txt          # Redacted human/LLM development conversation
 ```
 
-Each session creates a Markdown file in `logs/`, updated after every message. **Nova conversa** clears context and creates a new file without deleting previous logs. Logging remains part of the final application. Files preserve entered text, including any personal information, and are not reloaded as context. All recorded logs accompany the submission.
+The `logs/` folder contains **four Markdown files with conversations used to evaluate the agent**, fulfilling the challenge requirement for 3-5 example conversations. They cover catalog queries, promotions, product availability, shipping and return policies, and order tracking, including non-trivial scenarios.
+
+Each session creates a Markdown file in `logs/`, updated after every message. **Nova conversa** clears context and creates a new file without deleting previous logs. Logging remains part of the final application. Files preserve entered text, including any personal information, and are not reloaded as context.
 
 ## Validation
 
-The candidate exercised a 30-case manual checklist. [tests/manual_test.txt](tests/manual_test.txt) lists the executed tests, expected behavior and reported results, including deviations and the tracking-code retest. Four recorded conversations demonstrate catalog queries, active discounts, categories without products, shipping/return policies and order tracking, including non-trivial data and policy scenarios.
+The candidate exercised a 30-case manual checklist. Inside the folder tests, the manual_test.txt lists the executed tests, expected behavior and reported results, including deviations and the tracking-code retest. Four recorded conversations demonstrate catalog queries, active discounts, categories without products, shipping/return policies and order tracking, including non-trivial data and policy scenarios.
 
 Sixteen automated tests cover tool exchanges, invalid arguments, call limits, failures, tracking-code validation, chat history and log preservation, using simulated API responses:
 
@@ -85,4 +87,4 @@ With more time, output validation would be strengthened to hide internal fields 
 
 ## AI assistance
 
-Codex assisted with planning, source inspection, implementation and debugging under the candidate's direction. The full human/LLM conversation is available in [log_LLM.txt](log_LLM.txt), with sensitive information redacted. It documents this workflow and is updated through the latest export. Initial commits were created after implementation, grouped by component; they do not represent the original development timeline.
+Codex assisted with planning, source inspection, implementation and debugging under the candidate's direction. The full human/LLM conversation is available in log_LLM.txt, with sensitive information redacted. It documents this workflow and is updated through the latest export. Initial commits were created after implementation, grouped by component; they do not represent the original development timeline.
