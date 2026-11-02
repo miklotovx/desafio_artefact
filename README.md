@@ -68,13 +68,9 @@ Each session creates a Markdown file in `logs/`, updated after every message. **
 
 ## Validation
 
-The candidate exercised a 30-case manual checklist. Inside the folder tests, the manual_test.txt lists the executed tests, expected behavior and reported results, including deviations and the tracking-code retest. Four recorded conversations demonstrate catalog queries, active discounts, categories without products, shipping/return policies and order tracking, including non-trivial data and policy scenarios.
+The candidate performed manual tests using a 30-case checklist. `tests/manual_test.txt` records the cases, expected behavior, reported results and corrections.
 
-Sixteen automated tests cover tool exchanges, invalid arguments, call limits, failures, tracking-code validation, chat history and log preservation, using simulated API responses:
-
-```powershell
-.\.venv\Scripts\python.exe -m unittest discover -s tests -v
-```
+Sixteen automated tests cover tool exchanges, invalid arguments, call limits, failures, tracking-code validation, chat history and log preservation, using simulated API responses.
 
 ## Limitations and improvements
 
