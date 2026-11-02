@@ -1,0 +1,20 @@
+PENDÊNCIAS PARA ENTREGA
+
+[ ] Revisar manualmente o README.md e os arquivos finais.
+[ ] Atualizar log_LLM.txt até o encerramento do desenvolvimento, ocultando dados sensíveis.
+[ ] Incluir a versão atualizada de log_LLM.txt na entrega. Atualmente ele está na pasta pai, fora deste repositório.
+[ ] Conferir todos os logs de conversa e os dados que serão publicados. As quatro conversas atuais já atendem à quantidade de exemplos exigida.
+[ ] Decidir se este arquivo de pendências deve ser removido da versão entregue.
+[ ] Registrar em novos commits quaisquer ajustes da revisão final.
+[ ] Enviar o repositório ao GitHub preservando o histórico local. Não enviar apenas arquivos pela interface web se isso perder os commits.
+[ ] Verificar no GitHub que o repositório é público, o histórico está presente e .env, .venv e __pycache__ não foram incluídos.
+[ ] Conferir a execução seguindo o README e usando uma chave própria.
+[ ] Enviar o link do repositório pelo canal do processo seletivo. O e-mail menciona Google Forms/PDF; o enunciado menciona resposta ao e-mail com o link. Conferir o formulário antes do envio e preparar PDF com o link se solicitado, em inglês e com o nome exigido.
+[ ] Conferir o prazo informado no e-mail e não modificar o repositório após a entrega.
+
+IMPLEMENTAÇÃO E VALIDAÇÃO JÁ REALIZADAS
+- Leitura dos dados, ferramentas, agente, chat e logs implementados.
+- Testes manuais executados e limitações registradas no README.
+- Quatro conversas gravadas e 16 testes automatizados aprovados.
+- Autoria Git configurada e commits locais registrados.
+- Chave da API deve ser inserida manualmente pelo avaliador em .env.
